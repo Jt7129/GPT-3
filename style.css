@@ -1,0 +1,44 @@
+/* set background color for entire window */
+QWidget {
+    background-color: #202225;
+}
+
+/* set font for all text in the app */
+QFont {
+    font-family: "Segoe UI";
+    font-size: 10pt;
+}
+
+/* set input field style */
+QLineEdit#input-field {
+    background-color: #36393f;
+    color: #ffffff;
+    border-radius: 15px;
+    border: 2px solid #7289da;
+    padding: 10px 20px;
+}
+
+/* set input button style */
+QPushButton#input-button {
+    background-color: #7289da;
+    color: #ffffff;
+    border-radius: 15px;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+/* set output field style */
+QTextEdit#output-field {
+    background-color: #36393f;
+    color: #ffffff;
+    border-radius: 15px;
+    border: 2px solid #7289da;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* set spacing between input and output fields */
+QWidget#main-widget > QVBoxLayout {
+    spacing: 20px;
+}
