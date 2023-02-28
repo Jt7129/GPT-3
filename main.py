@@ -84,7 +84,7 @@ class ModernWindow(QMainWindow):
             max_tokens=2000)
 
         output_text = response["choices"][0]["text"]
-        self.output_field.append("<span style='color:#ffffff;'>Bot:</span> " + output_text)
+        self.output_field.append("<span style='color:#ffffff;'>GPT-3:</span> " + output_text)
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
